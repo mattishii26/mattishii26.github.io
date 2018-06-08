@@ -1,0 +1,38 @@
+<div id="overlayPopup">
+   <h2 class="text-center">Welcome to the AEIS Test System</h2>
+   <div class="row p-b-lg" style="overflow:hidden;">
+
+      <div id="popupReg" class="offset-quarter half">
+         <section id="loginForm" class="section-understated p-a-lg shadow">
+            <!--Form states-->
+            <div id="email-box" class="form-group m-b-md">
+               <div class="input-group">
+                  <div class="input-group-addon d-flex">
+                     <i class="ca-gov-icon-person"></i>
+                  </div>
+                  <input id="emailPopup" name="userEmail" class="form-control" type="text" placeholder="Enter Your Email">
+               </div>
+               <div class="input-group m-t-md">
+                  <div class="input-group-addon d-flex">
+                     <i class="ca-gov-icon-key"></i>
+                  </div>
+                  <input id="passwordPopup" name="userPassword" class="form-control" type="password" placeholder="Enter Your Password">
+               </div>
+               <div class="input-group m-t-md">
+                  <div class="input-group-addon d-flex">
+                     <i class="ca-gov-icon-key"></i>
+                  </div>
+                  <input id="passwordCheckPopup" name="userPassword" class="form-control" type="password" placeholder="Enter Your Password">
+               </div>
+
+               <small id="email-feedback" class="feedback" style="display:none">Email not registered, please register to continue.</small>
+            </div>
+            <div class="row m-t-md m-b-md text-center">
+               <div class="col-sm-offset-2 col-sm-8">
+                  <input type="submit" value="Register" class="btn btn-lg btn-primary full-width" onclick="loginCheck();">
+               </div>
+            </div>
+         </section>
+      </div>
+   </div>
+</div>
