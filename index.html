@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
+<script>
+$(document).ready(function(){
+   $(".fade").hide(0).delay(500).fadeIn(3000);
+});
+</script>
 <head>
-   <title>Matthew Ishii - Home</title>
+   <title>Matthew N. Ishii - Home</title>
    <link rel="stylesheet" href="./assets/css/main.css">
    <link rel="stylesheet" href="./assets/css/navBar.css">
    <link rel="stylesheet" href="./assets/css/common.css">
@@ -15,17 +20,17 @@
       <div id="main">
          <div id="topOfPage"></div>
          <div id="title">
-            <p>Matthew Ishii</p>
+            <p>Matthew N. Ishii</p>
          </div>
 
-         <div class="mainIntro">
+         <div class="mainIntro fade">
             <h2>Collaborate. Execute. Complete.</h2>
             <h1>Let’s develop something new.</h1>
          </div>
          <div class="mainContent">
             <ul class="options">
                <li class="selection"><a href="#learnMore">Learn More</a></li>
-               <li class="selection"><a href="">Portfolio</a></li>
+               <li class="selection"><a href="./portfolio.html">Portfolio</a></li>
             </ul>
          </div>
          <div class="mainContent">
@@ -43,11 +48,11 @@
       <div id="learnMore"></div>
       <div id="main">
          <div class="aboutMeTitle">
-            Matthew Ishii
+            Matthew N. Ishii
          </div>
 
          <div class="aboutMeDescript">
-            <p>As of 2018, Matthew Ishii is currently pursuing a Bachelors of Science in Computer Science, with an emphasis in Security at California State University Sacramento. Matthew has experiences in both Software Engineering and Web Development.
+            <p>As of 2018, Matthew Ishii is currently pursuing a Bachelors of Science in Computer Science, with an emphasis in Security at California State University, Sacramento. Matthew has experiences in both Software Engineering and Web Development.
             </p>
          </div>
          <div class="aboutMeSkill">
@@ -121,8 +126,7 @@
 
    <div class="bottomNav">
       <ul class="footer_nav">
-         <li class="footer_nav_selection"><a href="">Learn More</a></li>
-         <li class="footer_nav_selection"><a href="">Portfolio</a></li>
+         <li class="footer_nav_selection"><a href="./portfolio.html">Portfolio</a></li>
          <li class="footer_nav_selection"><a href="#topOfPage">Back to Top</a></li>
       </ul>
    </div>
