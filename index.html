@@ -3,38 +3,129 @@
 
 <head>
    <title>Matthew Ishii - Home</title>
-   <link rel="stylesheet" href="./assets/css/main.css">
+   <link rel="stylesheet" href="./assets/css/main.scss">
    <link rel="stylesheet" href="./assets/css/navBar.css">
    <link rel="stylesheet" href="./assets/css/common.css">
+   <script src="./assets/js/main.js"></script>
 </head>
 
 <body>
    <!--Page 1-->
+
    <div class="home_Background">
-      <div id="mainContent">
-         <div id="main_Text">
-            Matthew Ishii
+      <div id="main">
+         <div id="topOfPage"></div>
+         <div id="title">
+            <p>Matthew Ishii</p>
          </div>
-         <div class="main_line">
-            <p><a href="#AboutMe" class="learnMore">Learn more</a></p>
-            <p><a href="" class="portfolio">My Portfolio</a></p>
+
+         <div class="mainIntro">
+            <h2>Collaborate. Execute. Complete.</h2>
+            <h1>Let’s develop something new.</h1>
          </div>
-         <div id="socialMediaBar">
-            <ul>
-               <li><a href="https://github.com/mattishii26"><img src="./assets/img/git.png" alt="GitHub" target="_blank" ></a></li>
-               <li><a href="https://www.linkedin.com/in/matthew-ishii-b1b31499" target="_blank" ><img src="./assets/img/linkedin.png" alt="LinkedIn"></a></li>
+         <div class="mainContent">
+            <ul class="options">
+               <li class="selection"><a href="#learnMore">Learn More</a></li>
+               <li class="selection"><a href="">Portfolio</a></li>
+            </ul>
+         </div>
+         <div class="mainContent">
+            <ul class="options">
+               <li class="selectionLink"><a href="https://github.com/mattishii26"><img src="./assets/img/git.png" alt="GitHub" target="_blank"></a></li>
+               <li class="selectionLink"><a href="https://www.linkedin.com/in/matthew-ishii-b1b31499" target="_blank" ><img src="./assets/img/linkedIn.png" alt="LinkedIn"></a></li>
             </ul>
          </div>
 
       </div>
+
    </div>
 
    <div class="home_Background">
-      <div id="mainContent">
-         <a href="" id="AboutMe"></a>
+      <div id="learnMore"></div>
+      <div id="main">
+         <div class="aboutMeTitle">
+            Matthew Ishii
+         </div>
+
+         <div class="aboutMeDescript">
+            <p>As of 2018, Matthew Ishii is currently pursuing a Bachelors of Science in Computer Science, with an emphasis in Security at California State University Sacramento. Matthew has experiences in both Software Engineering and Web Development.
+            </p>
+         </div>
+         <div class="aboutMeSkill">
+            <div class="infoMe">
+               
+               <div class="infoMesplit">
+                  <div class="left">
+                     <div id="resume">
+                        <a href="https://drive.google.com/file/d/1O_7Le3uKmKmXkyVh2uNsPOhMu3hzlZgq/view?usp=sharing" target="_blank">
+                           Resume
+                        </a>
+                     </div>
+                  </div>
+                  <div class="right">
+                     <div id="contactMe">
+                        <a href="mailto:ishiimatthew@gmail.com">Email Me!</a>
+                     </div>
+                  </div>
+               </div>
+
+
+            </div>
+            <div class="skillPercents">
+               HTML
+               <div class="container">
+                  <div class="skills html">80%</div>
+               </div>
+               CSS
+               <div class="container">
+                  <div class="skills css">70%</div>
+               </div>
+               Python
+               <div class="container">
+                  <div class="skills python">70%</div>
+               </div>
+               C++
+               <div class="container">
+                  <div class="skills cpp">60%</div>
+               </div>
+               Java
+               <div class="container">
+                  <div class="skills java">60%</div>
+               </div>
+               MySQL
+               <div class="container">
+                  <div class="skills mysql">50%</div>
+               </div>
+               JavaScript
+               <div class="container">
+                  <div class="skills javascript">40%</div>
+               </div>
+               ASP.NET MVC C#
+               <div class="container">
+                  <div class="skills aspnet">10%</div>
+               </div>
+               PHP
+               <div class="container">
+                  <div class="skills php">10%</div>
+               </div>
+               MIPS32
+               <div class="container">
+                  <div class="skills mips32">10%</div>
+               </div>
+            </div>
+
+         </div>
       </div>
+
+
    </div>
 
+   <div class="bottomNav">
+      <ul class="footer_nav">
+         <li class="footer_nav_selection"><a href="">Learn More</a></li>
+         <li class="footer_nav_selection"><a href="">Portfolio</a></li>
+         <li class="footer_nav_selection"><a href="#topOfPage">Back to Top</a></li>
+      </ul>
+   </div>
 </body>
-
 </html>
