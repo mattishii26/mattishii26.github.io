@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<script>
-$(document).ready(function(){
-   $(".fade").hide(0).delay(500).fadeIn(3000);
-});
-</script>
 <head>
    <title>Matthew N. Ishii - Home</title>
    <link rel="stylesheet" href="./assets/css/main.css">
    <link rel="stylesheet" href="./assets/css/navBar.css">
    <link rel="stylesheet" href="./assets/css/common.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="./assets/js/main.js" ></script>
 </head>
 
 <body>
@@ -22,29 +19,32 @@ $(document).ready(function(){
          <div id="title">
             <p>Matthew N. Ishii</p>
          </div>
+         <div class="slideDown">
 
-         <div class="mainIntro fade">
+         </div>
+         <div class="mainIntro slideDownMain">
             <h2>Collaborate. Execute. Complete.</h2>
             <h1>Let’s develop something new.</h1>
          </div>
-         <div class="mainContent">
-            <ul class="options">
-               <li class="selection"><a href="#learnMore">Learn More</a></li>
-               <li class="selection"><a href="./portfolio.html">Portfolio</a></li>
-            </ul>
+         <div class="fadeInMain">
+            <div class="mainContent">
+               <ul class="options">
+                  <li class="selection selectionButton"><a href="#learnMore">Learn More</a></li>
+                  <li class="selection"><a href="./portfolio.html">Portfolio</a></li>
+               </ul>
+            </div>
+            <div class="mainContent">
+               <ul class="options">
+                  <li class="selectionLink"><a href="https://github.com/mattishii26"><img src="./assets/img/git.png" alt="GitHub" target="_blank"></a></li>
+                  <li class="selectionLink"><a href="https://www.linkedin.com/in/matthew-ishii-b1b31499" target="_blank" ><img src="./assets/img/linkedIn.png" alt="LinkedIn"></a></li>
+               </ul>
+            </div>
          </div>
-         <div class="mainContent">
-            <ul class="options">
-               <li class="selectionLink"><a href="https://github.com/mattishii26"><img src="./assets/img/git.png" alt="GitHub" target="_blank"></a></li>
-               <li class="selectionLink"><a href="https://www.linkedin.com/in/matthew-ishii-b1b31499" target="_blank" ><img src="./assets/img/linkedIn.png" alt="LinkedIn"></a></li>
-            </ul>
-         </div>
-
       </div>
 
    </div>
 
-   <div class="home_Background">
+   <div class="home_Background fadeInNext">
       <div id="learnMore"></div>
       <div id="main">
          <div class="aboutMeTitle">
@@ -104,6 +104,10 @@ $(document).ready(function(){
                <div class="container">
                   <div class="skills javascript">40%</div>
                </div>
+               jQuery
+               <div class="container">
+                  <div class="skills jQuery">20%</div>
+               </div>
                ASP.NET MVC C#
                <div class="container">
                   <div class="skills aspnet">10%</div>
@@ -112,10 +116,7 @@ $(document).ready(function(){
                <div class="container">
                   <div class="skills php">10%</div>
                </div>
-               MIPS32
-               <div class="container">
-                  <div class="skills mips32">10%</div>
-               </div>
+
             </div>
 
          </div>
